@@ -1,0 +1,176 @@
+@font-face {
+	font-family: "Circular Std";
+	src: url(../fonts/CircularStd-Book.woff) format("woff");
+}
+
+
+body{
+	margin: 0;
+	font-family: "Circular Std";
+}
+
+#content {
+	background-image: url(../img/mosque2.png);
+	height: 100vh;
+	/* background-color: aquamarine; */
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+@media screen and (max-width: 767px) {
+	.part-one h1{
+		font-size: 35px;
+	}
+
+	.part-one h3 {
+		font-size: px;
+	}
+
+	.part-one p {
+		margin-top:
+	}
+
+	.part-two img {
+		width: 400px;
+		height: 650px;
+	}
+
+	.inn-link {
+	margin-top: 220px;
+}
+}
+
+.logo-head {
+	display: flex;
+	align-items: center;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+.logo-head p{
+	font-size: 32px;
+	line-height: 40px;
+	color: #1067CC;
+	margin-left: 20px;
+}
+
+.part-one, .part-two{
+	height: 100%;
+}
+.part-one {
+	margin-top: 15%;
+	margin-left: 80px;
+}
+
+.part-one img {
+	
+	margin-top: 20px;
+}
+
+.part-two{
+	background: url(../img/right-image.png) no-repeat;
+	background-size: cover;
+
+}
+
+.part-one h1 {
+	
+	margin-top: 90px;
+	font-family: Circular Std;
+	font-size: 42px;
+	line-height: 53px;
+	
+}
+
+.part-one h3{
+	font-family: Circular Std;
+	font-size: 30px;
+	line-height: 38px;
+	margin-top: 20px;
+}
+
+.part-one a {
+	background: #2882F5;
+	box-shadow: 0px 10px 12px rgba(27, 115, 228, 0.15);
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 10px 40px;
+	color: #ffffff;
+
+}
+
+.inn-link {
+	margin-top: 100px;
+}
+
+.insure {
+	color: #2882F5;
+}
+
+@media screen and (max-width: 375px) {
+	.part-one img{
+		margin-top: 35px;
+	}
+
+	.part-one h1{
+		
+	}
+
+	.part-one h3 {
+		font-size: 25px;
+	}
+
+	.part-one p {
+		margin-top: -87px;
+	}
+
+	.part-one a{
+
+		padding: 18px 50px;
+		font-size: 20px;
+	}
+
+	.part-two img {
+		width: 60px;
+		height: 80px;
+	}
+
+	.inn-link {
+		margin-top: 50px;
+}
+}
+
+@media screen and (max-width: 414px) {
+	.part-one img{
+		margin-top: 35px;
+	}
+
+	.part-one h1{
+		
+	}
+
+	.part-one h3 {
+		font-size: 25px;
+	}
+
+	.part-one p {
+		margin-top: -87px;
+	}
+
+	.part-one a{
+
+		padding: 20px 50px;
+		font-size: 20px;
+	}
+
+	.part-two img {
+		width: 60px;
+		height: 80px;
+	}
+
+	.inn-link {
+		margin-top: 50px;
+}
+}
